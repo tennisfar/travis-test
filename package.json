@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/lthr/travis-test/issues"
   },
-  "homepage": "https://github.com/lthr/travis-test#readme"
+  "homepage": "https://github.com/lthr/travis-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
 }
